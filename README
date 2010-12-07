@@ -12,8 +12,8 @@ Example:
     <li><a href="#contact">Contact</a></li>
   </ul>
 
-  <div id="#about" class="section">......</div>
-  <div id="#contact" class="section">......</div>
+  <div id="about" class="section">......</div>
+  <div id="contact" class="section">......</div>
 
   JS:
   $('.subnavigation a').subNavigation();
