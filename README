@@ -1,0 +1,24 @@
+jQuery.subNavigation
+
+This plugin automates toggling 'selected' class on navigation links based on
+window.location.hash and clicking on nav links. The plugin uses normal html
+anchors, so will degrade nicely when JS and CSS is not available.
+
+Example:
+
+  HTML:
+  <ul class="subnavigation">
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div id="#about" class="section">......</div>
+  <div id="#contact" class="section">......</div>
+
+  JS:
+  $('.subnavigation a').subNavigation();
+
+  CSS:
+  .section { display: none }  // hide non-selected sections
+  .selected { display: block }
+
